@@ -1,0 +1,42 @@
+body{
+    background-color: lawngreen;
+}
+header{
+    background-color: aqua;
+}
+footer{
+    text-align: center;
+    background-color: aqua;
+}
+nav{
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: inline-block;
+    gap: 20px;
+}
+
+nav a:hover {
+    animation: bounce 0.5s infinite alternate;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    background-color: aqua;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
